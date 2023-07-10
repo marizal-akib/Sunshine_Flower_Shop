@@ -1,0 +1,42 @@
+/* common shard styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #e55473;
+    ;
+    border: 0px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+/* header cover styles */
+header {
+    background-color: #fceef1;
+}
+
+.cover {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cover-content {
+    max-width: 500px;
+}
+
+.sunflower {
+    width: 500px;
+}
+
+.cover-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
