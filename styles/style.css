@@ -118,10 +118,34 @@ main section {
     padding-left: 130px;
 
 }
-.flower-name a{
+
+.flower-name a {
     color: #272727;
     font-size: 18px;
     font-weight: 700;
     line-height: 35px;
     display: flex;
+}
+
+.service {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    max-height: 285px;
+    min-width: 1400px;
+    margin: 128px 15px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.service-info {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
 }
