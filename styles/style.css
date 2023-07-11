@@ -3,6 +3,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.primary {
+    color: #e55473;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #e55473;
@@ -61,16 +65,22 @@ header {
 }
 
 /* main section */
-main {
-    max-width: 1400px;
+/* main {
+    max-width: 1400px; Aita use korar por maje kono section a onno width or style babohar kora jay na?. 
     margin: 0px auto;
-}
+} */
 
 main section {
     margin-top: 130px;
 }
 
 /* featured style */
+.main-flower {
+    max-width: 1400px;
+    margin: 0px auto;
+
+}
+
 .featured-dis {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -148,4 +158,38 @@ main section {
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
+}
+
+/* SALE CALL */
+.sale {
+    background: rgba(229, 84, 115, 0.05);
+    max-width: 2000px;
+    margin: 0px auto;
+    border-radius: 8px;
+    display: flex;
+    gap: 100px;
+    padding: 100px 230px;
+    margin-bottom: 120px;
+}
+
+.call-to-action {
+    width: 50%;
+    text-align: center;
+    padding: 100px 0px 0px 220px;
+
+}
+
+.sale-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.sale-discretion {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
