@@ -112,6 +112,16 @@ main section {
 
 .flower-name {
     display: flex;
-    gap: 102px;
-    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 130px;
+    padding-left: 130px;
+
+}
+.flower-name a{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    display: flex;
 }
