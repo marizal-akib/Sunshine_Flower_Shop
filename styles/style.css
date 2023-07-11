@@ -246,7 +246,7 @@ main section {
 }
 
 .sub-div {
-    text-align:center;
+    text-align: center;
     gap: 10px;
 }
 
@@ -257,3 +257,45 @@ main section {
     border: 0px;
 }
 
+::placeholder {
+    font-style: italic;
+    font-size: 1em;
+    color: #272727;
+    text-align-last: left;
+}
+
+/* footer */
+.footer-section {
+    background: #111010;
+    min-height: 300px;
+    padding: 100px 600px 0px 600px;
+}
+
+.footer-titel {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
